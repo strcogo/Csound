@@ -4,8 +4,11 @@ body {
   font-family: 'Poppins';
   font-weight: 400;
   background: #090A0A;
-  /*background-image: url("image-menor.png");*/
-  /*background-repeat: no-repeat;*/
+  background-image: url(image.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 h1, h2, h3, h4, h5, nav, a {
@@ -35,47 +38,59 @@ nav {color: #D9D9D9; border-bottom: 1px solid #D9D9D9;
   align-items: center;
   justify-content: space-between;
   padding: 0rem calc((100vw - 1300px) / 2);
+  background-color: #374446;
 }
-
 nav a{
   text-decoration: none;
-  color: #6c8588;
+  color: #8bacaf;
   padding: 0 1.5rem;
 }
 nav a:hover{color: #D9D9D9;}
 
-
 p {font-size: 1.333rem; color:white;}
 
+.Clogo{color: #D9D9D9;}
 .navitems:hover{color: #D9D9D9;}
-.navtitle{font-size: 70px; color: #D9D9D9; padding: 0 20px;}
+.navtitle{font-size: 70px; color: #181818; padding: 0 20px;}
 
 .coltitle{text-align: center; color: black;}
 .coltext{text-align: left; color: #090A0A; line-height: 2px; padding-left: 60px;}
 
 .subtitulo{
-    text-align: center;
+    text-align: left;
     color: #D9D9D9;
-    
+    padding-left: 90px;
+    line-height: 30px;
 }
 .coluna{
     display: flex;
     justify-content: space-around;
 }
 
-.col-1{height: 500px; width: 430px; background-color: rgb(72, 88, 90);
+.col-1{height: 500px; width: 430px; background-color: rgba(72, 88, 90, 0.8);
   align-self: center; 
   border-radius: 20px;
+  transition: all 0.3s;
 }
-.col-2{height: 520px; width: 450px; background: #B2BCBD;
+.col-1:hover{
+  scale: 1.06;
+}
+.col-2{height: 520px; width: 450px; background: rgba(178, 188, 189, 0.8);
     align-self: center;
     border-radius: 20px;
+    transition: all 0.3s;
 }
-.col-3 {height: 500px; width: 430px; background: #48585A;
+.col-2:hover{
+  scale: 1.06;
+}
+.col-3 {height: 500px; width: 430px; background: rgba(72, 88, 90, 0.8);
   align-self: center; 
   border-radius: 20px;
+  transition: all 0.3s;
 }
-
+.col-3:hover{
+  scale: 1.06;
+}
 
 .button1{
   font-family: 'Poppins';
@@ -89,11 +104,13 @@ p {font-size: 1.333rem; color:white;}
   margin: auto;
   border-radius: 12px;
   cursor: pointer;
+  transition: all 0.3s;
+  transform: translateY(+35px);
 }
 .button1:hover{
-  background: #88a8ac; ;
+  background-color: #88a8ac;
+  transform: translateY(+25px);
 }
-
 
 .button2{
   font-family: 'Poppins';
@@ -107,12 +124,14 @@ p {font-size: 1.333rem; color:white;}
   margin: auto;
   border-radius: 12px;
   cursor: pointer;
+  transition: all 0.3s;
+  transform: translateY(+35px);
 }
 .button2:hover{
   background: #090A0A;
   color: #D9D9D9;
+  transform: translateY(+25px);
 }
-
 
 
 
