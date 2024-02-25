@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:700|Poppins:400');
+
+body {
+  font-family: 'Poppins';
+  font-weight: 400;
+  background: #090A0A;
+  /*background-image: url("image-menor.png");*/
+  /*background-repeat: no-repeat;*/
+}
+
+h1, h2, h3, h4, h5, nav, a {
+  font-family: 'Poppins';
+  font-weight: 700;
+}
+
+/*LEMBRAR 1 rem = 16px*/
+
+html {font-size: 100%;} /* 16px */
+
+h1 {font-size: 4.210rem;  /* 67.36px */ color: #D9D9D9
+  ;}
+
+h2 {font-size: 3.158rem; /* 50.56px */}
+
+h3 {font-size: 2.369rem; /* 37.92px */ color: #D9D9D9; font-weight: 600;}
+
+h4 {font-size: 1.777rem; /* 28.48px */ }
+
+h5 {font-size: 1.333rem; /* 21.28px */ font-weight: 300;}
+
+small {font-size: 0.750rem; /* 12px */}
+
+nav {color: #D9D9D9; border-bottom: 1px solid #D9D9D9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem calc((100vw - 1300px) / 2);
+}
+
+nav a{
+  text-decoration: none;
+  color: #6c8588;
+  padding: 0 1.5rem;
+}
+nav a:hover{color: #D9D9D9;}
+
+
+p {font-size: 1.333rem; color:white;}
+
+.navitems:hover{color: #D9D9D9;}
+.navtitle{font-size: 70px; color: #D9D9D9; padding: 0 20px;}
+
+.coltitle{text-align: center; color: black;}
+.coltext{text-align: left; color: #090A0A; line-height: 2px; padding-left: 60px;}
+
+.subtitulo{
+    text-align: center;
+    color: #D9D9D9;
+    
+}
+.coluna{
+    display: flex;
+    justify-content: space-around;
+}
+
+.col-1{height: 500px; width: 430px; background-color: rgb(72, 88, 90);
+  align-self: center; 
+  border-radius: 20px;
+}
+.col-2{height: 520px; width: 450px; background: #B2BCBD;
+    align-self: center;
+    border-radius: 20px;
+}
+.col-3 {height: 500px; width: 430px; background: #48585A;
+  align-self: center; 
+  border-radius: 20px;
+}
+
+
+.button1{
+  font-family: 'Poppins';
+  font-size: 27px;
+  font-weight: 600;
+  border: none;
+  color: #090A0A;
+  background: #6c8588;
+  width: 190px;
+  display: block;
+  margin: auto;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.button1:hover{
+  background: #88a8ac; ;
+}
+
+
+.button2{
+  font-family: 'Poppins';
+  font-weight: 600;
+  border: none;
+  font-size: 30px;
+  color: #090A0A;
+  background: #E9E9E9;
+  width: 200px;
+  display: block;
+  margin: auto;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.button2:hover{
+  background: #090A0A;
+  color: #D9D9D9;
+}
+
+
+
+
+
+
+
+
